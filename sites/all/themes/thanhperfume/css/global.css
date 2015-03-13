@@ -10,9 +10,15 @@ body {
 h1, h2, h3 {
     color: #fb838d;
 }
-h2 {
-	font-weight: 400;
-	font-size: 18px;
+/*
+ * Font
+ */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/59ZRklaO5bWGqF5A9baEEVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
 }
 /*
  * Link
@@ -156,7 +162,9 @@ ul.nice-menu > li:hover ul a:hover {
 /*************PRODUCTS*****************/
 .front .block-products-block .block-title {
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
 }
 .block-products-block .view-products .views-row {
 	float: left;

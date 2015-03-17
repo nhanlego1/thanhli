@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04dfd0f5-2136-433e-a4cc-24930de0425c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thanhperfume/images/arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thanhperfume/images/cat-marker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thanhperfume/images/title_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/wysiwyg/wysiwyg_ckeditor_uWMoMQ7qlhtyf-cFJlMTazsAxhCeS88weKBiAtXujAQ.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/.htaccess" afterPath="$PROJECT_DIR$/sites/default/files/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/files/temp/.htaccess" afterPath="$PROJECT_DIR$/sites/default/files/temp/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thanhperfume/templates/node/node--product.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/thanhperfume/templates/node/node--product.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <list id="fdea3500-5d9a-4a04-9272-7cb06731caa9" name="Failed commit: Default" comment="Merge branch 'master' of https://github.com/nhanlego1/thanhli.git&#10;&#10;Conflicts:&#10;&#9;sites/all/themes/thanhperfume/css/global.css&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css" afterPath="$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css" />
-    </list>
+    <list id="fdea3500-5d9a-4a04-9272-7cb06731caa9" name="Failed commit: Default" comment="Merge branch 'master' of https://github.com/nhanlego1/thanhli.git&#10;&#10;Conflicts:&#10;&#9;sites/all/themes/thanhperfume/css/global.css&#10;" />
     <ignored path="thanhli.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="04dfd0f5-2136-433e-a4cc-24930de0425c" time="1426475045367" ignored="false" />
+    <file path="/Dummy.txt" changelist="04dfd0f5-2136-433e-a4cc-24930de0425c" time="1426560316965" ignored="false" />
     <file path="/.gitignore" changelist="04dfd0f5-2136-433e-a4cc-24930de0425c" time="1426154931502" ignored="false" />
+    <file path="/global.css" changelist="04dfd0f5-2136-433e-a4cc-24930de0425c" time="1426475657329" ignored="false" />
+    <file path="/node--product.tpl.php" changelist="04dfd0f5-2136-433e-a4cc-24930de0425c" time="1426563334745" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +43,45 @@
       <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="326" column="3" selection-start="12137" selection-end="12137" vertical-scroll-proportion="-27.428572">
+            <state line="326" column="3" selection-start="12137" selection-end="12137" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.5480983">
+            <state line="28" column="19" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1426560789000" expanded="true" signature="1415:1490" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="1516:1552" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="1638:1726" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="1773:1865" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="2729:2769" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="2843:2949" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="2991:3039" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="3084:3095" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="3272:3289" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="3415:3580" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="3636:4840" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="4971:5022" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="5105:5173" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="5377:5468" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="5560:5601" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="5642:5671" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="5707:5783" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="5826:5853" placeholder="{...}" />
+                <marker date="1426560789000" expanded="true" signature="5895:5966" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node--product.tpl.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/templates/node/node--product.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="53" selection-start="860" selection-end="860" vertical-scroll-proportion="0.35185185">
               <folding />
             </state>
           </provider>
@@ -83,6 +107,7 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/thanhperfume/templates/node/node--product.tpl.php" />
       </list>
     </option>
   </component>
@@ -118,7 +143,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,7 +267,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thanhli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thanhli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thanhperfume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,10 +325,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mercvn" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -286,26 +346,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1420" height="828" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32909605" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.670904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532751" sideWeight="0.670904" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -379,14 +439,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="326" column="3" selection-start="12137" selection-end="12137" vertical-scroll-proportion="-27.428572">
+        <state line="326" column="3" selection-start="12137" selection-end="12137" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.5480983">
+        <state line="21" column="34" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1426560789000" expanded="true" signature="1415:1490" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="1516:1552" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="1638:1726" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="1773:1865" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="2729:2769" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="2843:2949" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="2991:3039" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="3084:3095" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="3272:3289" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="3415:3580" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="3636:4840" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="4971:5022" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5105:5173" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5377:5468" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5560:5601" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5642:5671" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5707:5783" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5826:5853" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5895:5966" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="326" column="3" selection-start="12137" selection-end="12137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="19" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1426560789000" expanded="true" signature="1415:1490" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="1516:1552" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="1638:1726" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="1773:1865" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="2729:2769" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="2843:2949" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="2991:3039" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="3084:3095" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="3272:3289" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="3415:3580" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="3636:4840" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="4971:5022" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5105:5173" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5377:5468" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5560:5601" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5642:5671" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5707:5783" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5826:5853" placeholder="{...}" />
+            <marker date="1426560789000" expanded="true" signature="5895:5966" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/templates/node/node--product.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="53" selection-start="860" selection-end="860" vertical-scroll-proportion="0.35185185">
           <folding />
         </state>
       </provider>

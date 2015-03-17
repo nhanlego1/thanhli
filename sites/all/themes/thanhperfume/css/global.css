@@ -35,6 +35,9 @@ h1, h2, h3 {
 .not-front .zone-content {
 	margin: 35px 0;
 }
+.region-branding-inner {
+	position: relative;
+}
 /*
  * Font
  */
@@ -229,7 +232,41 @@ ul.nice-menu > li:hover ul a:hover {
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
-
+/***************************FORM-SEARCH*******************/
+#block-views-exp-products-page-3 {
+	position: absolute;
+	z-index: 5;
+	right: 0;
+	bottom: 25px;
+}
+#edit-title-wrapper label {
+	display: none;
+}
+#edit-title-wrapper input[type="text"] {
+	width: 100%;
+	height: 32px;
+	padding: 15px 10px;
+	border: 1px solid #e5e5e5;
+}
+.views-exposed-form .views-exposed-widget .form-submit {
+	position: absolute;
+  	right: 10px;
+  	top: 0;
+  	z-index: 10;
+  	font-size: 0;
+  	margin: 7px 0 0 0;
+  	background: url("../images/src_btn.png") no-repeat scroll 0 0 transparent;
+	width: 30px;
+	height: 32px;
+	box-shadow: none;
+	display: block;
+}
+.views-exposed-form .views-exposed-widget .form-submit:hover {
+	background: url("../images/src_btn.png") no-repeat scroll 0 -31px transparent;
+}
+.views-exposed-form .views-exposed-widget.views-submit-button {
+	float: none;
+}
 /***************************CONTACTS**********************/
 /*
  * Sidebar-first
@@ -333,7 +370,8 @@ form.webform-client-form label{
 	padding: 0 0 10px 0;
 }
 #block-views-category-list-block .block-title {
-	margin: 0 0 30px 0;
+	margin: 0 0 20px 0;
+	border-bottom: 4px double #e5e5e5;
 }
 .view-category-list .views-row a {
 	font-family: 'Open Sans' sans-serif;

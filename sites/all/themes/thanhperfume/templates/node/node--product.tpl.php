@@ -3,7 +3,8 @@
     <?php print render($title_prefix); ?>
     <?php if (!$page && $title): ?>
         <header>
-            <h2<?php print $title_attributes; ?>><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
+            <h2<?php print $title_attributes; ?>><a href="<?php print $node_url ?>"
+                                                    title="<?php print $title ?>"><?php print $title ?></a></h2>
         </header>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
@@ -17,11 +18,13 @@
                 <header>
                     <h2<?php print $title_attributes; ?>><?php print $node->title ?></h2>
                 </header>
-            <?php print render($content['field_prices']);?>
+                <?php print render($content['field_prices']); ?>
+                <?php print  render($content['easy_social_1']); ?>
 
             </div>
         </div>
         <h2 class="detail-info">Thông tin sản phẩm </h2>
+
         <div class="content-product-bottom grid-8">
 
             <?php

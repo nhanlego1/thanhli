@@ -31,6 +31,9 @@ h1, h2, h3 {
 	padding: 0px 0 10px 0px;
     margin: 0 0 15px 0;
 }
+.not-front .zone-content {
+	margin: 35px 0;
+}
 /*
  * Font
  */
@@ -40,6 +43,13 @@ h1, h2, h3 {
   font-weight: 400;
   src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/59ZRklaO5bWGqF5A9baEEVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
   unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+@font-face {
+  font-family: 'Playball';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playball'), local('Playball-Regular'), url(http://fonts.gstatic.com/s/playball/v6/sSjR6AJRrIl2FxjhncYng_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 /*
  * Link
@@ -312,4 +322,140 @@ form.webform-client-form label{
 }
 .view-products .views-field-body p {
 	margin: 0;
+}
+/**************************PRODUCT NODE*******************/
+/*
+ * Sidebar-first
+*/
+#block-views-category-list-block .views-row {
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+#block-views-category-list-block .block-title {
+	margin: 0 0 30px 0;
+}
+.view-category-list .views-row a {
+	font-family: 'Open Sans' sans-serif;
+	text-transform: uppercase;
+    display: block;
+  	color: #a8a8a8;
+  	font-size: 12px;
+  	margin: 0;
+}
+.view-category-list .views-row a:hover {
+	color: #f44043;
+}
+/*
+ * Content
+ */
+.node-type-product h1#page-title {
+	display: none;
+}
+.node-product .content-product-top {
+	margin: 0 0 30px 0;
+}
+.content-product-top .image-cloud {
+	width: 35% !important;
+	float: left;
+}
+.content-product-top .small-info {
+	width: 60% !important;
+	float: right;
+	margin: 0;
+}
+.content-product-top .node-title {
+	text-transform: none;
+	font-family: 'Open Sans' sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000;
+	border-bottom: 1px solid #e5e5e5;
+}
+#wrap {
+	border: 1px solid #e5e5e5;
+	padding: 5px 0;
+	margin: 0 0 10px 0;
+}
+.cloud-zoom-gallery-thumbs a {
+	border: 1px solid #e5e5e5;
+  	background: #fafafa;
+  	max-width: 100px;
+  	padding: 5px;
+  	width: 100%;
+  	height: auto;
+  	display: block;
+}
+.cloud-zoom-gallery-thumbs a img {
+	background: #fff;
+  	width: 100%;
+  	height: auto;
+}
+.content-product-top .small-info .field-name-field-prices {
+	padding: 20px;
+  	border: 1px solid #e5e5e5;
+  	margin-top: 10px;
+  	background: #fcfcfc;
+  	font-family: 'Playball';
+  	font-size: 28px;
+}
+.content-product-bottom {
+	margin: 0 !important;
+}
+.content-product-bottom .field-name-body {
+	padding: 20px;
+  	border: 1px solid #e5e5e5;
+}
+.content-product-bottom .field-name-body p {
+	font-size: 12px;
+  	line-height: 22px;
+}
+/*****************************FOOTER****************************/
+#zone-footer-wrapper {
+	border-top: 1px solid #e5e5e5;
+}
+#zone-footer .block-menu-block {
+	margin: 30px 0;
+}
+#region-footer-first {
+	margin: 0;
+}
+.zone-footer .menu-block-wrapper ul.menu {
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.zone-footer ul li.leaf {
+	list-style-image: none;
+	list-style-type: none;
+}
+.zone-footer ul.menu > li {
+}
+
+.zone-footer ul.menu li a:before {
+	content: "";
+	display: inline-block;
+	background: url("../images/foot-marker.png") no-repeat scroll left center transparent;
+	width: 10px;
+	height: 10px;
+	padding: 0 3px;
+}
+.zone-footer ul.menu li a {
+	color: #8b8888;
+}
+/*
+ * Copy-right
+ */
+#block-block-5 {
+	background: #f98268;
+}
+#block-block-5 .content {
+	text-transform: uppercase;
+  	color: #fff;
+  	text-align: left;
+  	font-family: 'Open Sans', sans-serif;
+  	font-size: 12px;
+  	line-height: 22px;
+  	padding: 10px 30px;
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04dfd0f5-2136-433e-a4cc-24930de0425c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thanhperfume/templates/node/node--product.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/thanhperfume/templates/node/node--product.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css" afterPath="$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="fdea3500-5d9a-4a04-9272-7cb06731caa9" name="Failed commit: Default" comment="Merge branch 'master' of https://github.com/nhanlego1/thanhli.git&#10;&#10;Conflicts:&#10;&#9;sites/all/themes/thanhperfume/css/global.css&#10;" />
@@ -10,8 +10,8 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="04dfd0f5-2136-433e-a4cc-24930de0425c" time="1426560316965" ignored="false" />
     <file path="/.gitignore" changelist="04dfd0f5-2136-433e-a4cc-24930de0425c" time="1426154931502" ignored="false" />
-    <file path="/global.css" changelist="04dfd0f5-2136-433e-a4cc-24930de0425c" time="1426475657329" ignored="false" />
-    <file path="/node--product.tpl.php" changelist="04dfd0f5-2136-433e-a4cc-24930de0425c" time="1426563334745" ignored="false" />
+    <file path="/global.css" changelist="04dfd0f5-2136-433e-a4cc-24930de0425c" time="1426585851707" ignored="false" />
+    <file path="/node--product.tpl.php" changelist="04dfd0f5-2136-433e-a4cc-24930de0425c" time="1426576010978" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,39 +49,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="19" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1426560789000" expanded="true" signature="1415:1490" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="1516:1552" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="1638:1726" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="1773:1865" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="2729:2769" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="2843:2949" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="2991:3039" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="3084:3095" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="3272:3289" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="3415:3580" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="3636:4840" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="4971:5022" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="5105:5173" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="5377:5468" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="5560:5601" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="5642:5671" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="5707:5783" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="5826:5853" placeholder="{...}" />
-                <marker date="1426560789000" expanded="true" signature="5895:5966" placeholder="{...}" />
-              </folding>
+            <state line="22" column="24" selection-start="545" selection-end="545" vertical-scroll-proportion="0.39461884">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node--product.tpl.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="node--product.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/templates/node/node--product.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="53" selection-start="860" selection-end="860" vertical-scroll-proportion="0.35185185">
+            <state line="21" column="68" selection-start="983" selection-end="983" vertical-scroll-proportion="-12.0">
               <folding />
             </state>
           </provider>
@@ -106,8 +86,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/thanhperfume/templates/node/node--product.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css" />
       </list>
     </option>
   </component>
@@ -447,27 +427,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="34" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1426560789000" expanded="true" signature="1415:1490" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="1516:1552" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="1638:1726" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="1773:1865" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="2729:2769" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="2843:2949" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="2991:3039" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="3084:3095" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="3272:3289" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="3415:3580" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="3636:4840" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="4971:5022" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5105:5173" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5377:5468" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5560:5601" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5642:5671" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5707:5783" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5826:5853" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5895:5966" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -485,36 +445,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/templates/node/node--product.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="19" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1426560789000" expanded="true" signature="1415:1490" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="1516:1552" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="1638:1726" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="1773:1865" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="2729:2769" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="2843:2949" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="2991:3039" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="3084:3095" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="3272:3289" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="3415:3580" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="3636:4840" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="4971:5022" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5105:5173" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5377:5468" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5560:5601" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5642:5671" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5707:5783" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5826:5853" placeholder="{...}" />
-            <marker date="1426560789000" expanded="true" signature="5895:5966" placeholder="{...}" />
-          </folding>
+        <state line="21" column="68" selection-start="983" selection-end="983" vertical-scroll-proportion="-12.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/templates/node/node--product.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thanhperfume/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="53" selection-start="860" selection-end="860" vertical-scroll-proportion="0.35185185">
+        <state line="22" column="24" selection-start="545" selection-end="545" vertical-scroll-proportion="0.39461884">
           <folding />
         </state>
       </provider>

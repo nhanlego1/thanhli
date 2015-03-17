@@ -18,7 +18,9 @@
                 <header>
                     <h2<?php print $title_attributes; ?>><?php print $node->title ?></h2>
                 </header>
-                <?php print render($content['field_prices']); ?>
+                <?php if ($content['field_prices']): ?>
+                    <?php print render($content['field_prices']); ?> VND
+                <?php endif; ?>
                 <?php print  render($content['easy_social_1']); ?>
 
             </div>
@@ -32,7 +34,8 @@
             hide($content['comments']);
             hide($content['links']);
             print render($content);
-            ?></div>
+            ?>
+        </div>
 
     </div>
 

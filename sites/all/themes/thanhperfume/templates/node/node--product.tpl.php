@@ -17,7 +17,7 @@
                 <header>
                     <h2<?php print $title_attributes; ?>><?php print $node->title ?></h2>
                 </header>
-
+            <?php print render($content['field_prices']);?>
 
             </div>
         </div>

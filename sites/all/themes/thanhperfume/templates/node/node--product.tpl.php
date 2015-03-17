@@ -19,7 +19,7 @@
                     <h2<?php print $title_attributes; ?>><?php print $node->title ?></h2>
                 </header>
                 <?php if ($content['field_prices']): ?>
-                    <?php print render($content['field_prices']); ?> VND
+                    <?php print render($content['field_prices']); ?>
                 <?php endif; ?>
                 <?php print  render($content['easy_social_1']); ?>
 

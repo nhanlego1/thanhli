@@ -472,7 +472,7 @@ form.webform-client-form label{
 	text-align: left;
 }
 .zone-footer .menu li {
-	float: left;
+	display: inline-block;
 	margin: 0 30px;
 	padding: 0;
 }
@@ -507,5 +507,35 @@ form.webform-client-form label{
 }
 
 .view-products .views-row:hover{
-background-color: #fefefe;
+    background-color: #fefefe;
+}
+/***********************PAGE-403*********************/
+#node-page-20 {
+	background: url("../images/403.png") no-repeat scroll 57px 35px transparent;
+  	padding: 46px 0 78px;
+}
+h2.error-heading {
+	font-size: 45px;
+  	font-weight: bold;
+  	margin: 0;
+  	text-transform: uppercase;
+}
+h3.error-subtile {
+	font-size: 18px;
+	color: #A1A1A1;
+	font-weight: normal;
+  	text-transform: uppercase;
+  	line-height: 100%;
+  	margin: 0;
+}
+#node-page-20 .content {
+	margin-left: 285px;
+}
+/***********************PAGE-404*************************/
+#node-page-21 {
+	background: url("../images/404.png") no-repeat scroll 57px 50px transparent;
+  	padding: 46px 0 35px;
+}
+#node-page-21 .content {
+	margin-left: 344px;
 }

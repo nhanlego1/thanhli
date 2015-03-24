@@ -120,7 +120,7 @@ input[type="submit"] {
 	margin-bottom: 25px;
 }
 .block-nice-menus {
-	background: #f98268;
+	background: #fb8fa6;
 	padding: 10px 30px;
 }
 .block-nice-menus ul.nice-menu{
@@ -255,7 +255,7 @@ ul.nice-menu > li:hover ul a:hover {
   	z-index: 10;
   	font-size: 0;
   	margin: 7px 0 0 0;
-  	background: url("../images/src_btn.png") no-repeat scroll 0 0 transparent;
+  	background: url("../images/src_btn.png") no-repeat scroll 0 -31px transparent;
 	width: 30px;
 	height: 32px;
 	box-shadow: none;
@@ -429,13 +429,13 @@ form.webform-client-form label{
   	width: 100%;
   	height: auto;
 }
-.content-product-top .small-info .field-name-field-prices {
+.content-product-top .small-info .info-wrapper-grey {
 	padding: 20px;
   	border: 1px solid #e5e5e5;
   	margin: 10px 0;
   	background: #fcfcfc;
-  	font-family: 'Playball';
-  	font-size: 28px;
+  	/*font-family: 'Playball';*/
+  	/*font-size: 28px;*/
 }
 .content-product-bottom {
 	margin: 0 !important;
@@ -494,7 +494,7 @@ form.webform-client-form label{
  * Copy-right
  */
 #block-block-5 {
-	background: #f98268;
+	background: #fb8fa6;
 }
 #block-block-5 .content {
 	text-transform: uppercase;

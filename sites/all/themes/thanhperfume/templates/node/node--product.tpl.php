@@ -18,14 +18,14 @@
                 <header>
                     <h2<?php print $title_attributes; ?>><?php print $node->title ?></h2>
                 </header>
-                <?php if ($content['field_prices']): ?>
-                    <?php print render($content['field_prices']); ?>
-                <?php endif; ?>
+                <div class="info-wrapper-grey">
+                    <?php print render($content['body']) ?>
+                </div>
                 <?php print  render($content['easy_social_1']); ?>
 
             </div>
         </div>
-        <h2 class="detail-info">Thông tin sản phẩm </h2>
+<!--        <h2 class="detail-info">Thông tin sản phẩm </h2>-->
 
         <div class="content-product-bottom grid-8">
 
@@ -33,8 +33,44 @@
             // We hide the comments and links now so that we can render them later.
             hide($content['comments']);
             hide($content['links']);
-            print render($content);
+           // print render($content);
             ?>
+            <?php if($node->field_other_style): ?>
+                <?php
+                $items = array();
+                foreach($node->field_other_style[LANGUAGE_NONE] as $val){
+                    $items[] = $val['value'];
+                }
+                $collection = entity_load('field_collection_item', array($items));
+                $header = array('Sản phẩm','','Giá Thanhperfume', 'Giá thị trường','Đặt mua');
+                $row = array();
+                foreach($collection as $collect){
+                    $col = array();
+                    if($collect->field_image_other){
+                        $col[] = theme('image_style', array('style_name' => '70x70', 'path' => $collect->field_image_other[LANGUAGE_NONE][0]['uri'], ));
+                    }
+                    if($collect->field_title_other){
+                       if($collect->field_link){
+                            $col[] = l($collect->field_title_other[LANGUAGE_NONE][0]['value'],$collect->field_link[LANGUAGE_NONE][0]['value']);
+                       }else{
+                            $col[] = $collect->field_title_other[LANGUAGE_NONE][0]['value'];
+                       }
+
+                    }
+                    if($collect->field_sell_other){
+                        $col[] = number_format($collect->field_sell_other[LANGUAGE_NONE][0]['value'], 0, ',', ' '). ' VND';
+                    }
+                    if($collect->field_sell_over){
+                        $col[] = number_format($collect->field_sell_over[LANGUAGE_NONE][0]['value'], 0, ',', ' '). ' VND';
+                    }
+                    $col[] = l('Liên hệ','node/19');
+                    $row[] = $col;
+                }
+
+                print theme('table', array('header' => $header, 'rows' => $row));
+                ?>
+
+            <?php endif; ?>
         </div>
 
     </div>

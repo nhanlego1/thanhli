@@ -219,8 +219,8 @@ $databases = array (
     array (
       'database' => 'thanhper_data',
       'username' => 'thanhper_user',
-      'password' => 'abcd1234',
-      'host' => '112.213.89.2',
+      'password' => 'asdf1234',
+      'host' => '112.213.89.171',
       'port' => '3306',
       'driver' => 'mysql',
       'prefix' => '',

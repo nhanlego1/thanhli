@@ -5,7 +5,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
-    color: #000;
+    color: #444;
 	background: url("../images/body.png") no-repeat fixed center top transparent;
 	width: 100%;
 	height: 100%!important;
@@ -33,7 +33,7 @@ h1, h2, h3 {
     margin: 0 0 15px 0;
 }
 .not-front .zone-content {
-	margin: 35px 0;
+	margin: 35px 0 70px 0;
 }
 .region-branding-inner {
 	position: relative;
@@ -232,6 +232,10 @@ ul.nice-menu > li:hover ul a:hover {
 	margin-bottom: 15px;
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
+}
+#block-views-products-block {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0 0 35px 0;
 }
 /***************************FORM-SEARCH*******************/
 #block-views-exp-products-page-3 {
@@ -593,4 +597,49 @@ h3.error-subtile {
 .view-blog .views-field-link a {
 	text-decoration: underline;
 }
-
+/*
+ * Node-detail
+ */
+.node-blog .field-name-field-image {
+	margin: 0 0 30px 0;
+}
+.node-blog .field-name-field-image img {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.node-blog .submitted {
+	margin: 0 0 20px 0;
+}
+/***************************SERVICES***************/
+.not-front .region-postscript-first {
+	border-top: 1px solid #e5e5e5;
+}
+#region-postscript-first .block-block {
+	float: left;
+	width: 30%;
+	border-right: 1px solid #e5e5e5;
+	max-height: 75px;
+	overflow: hidden;
+	margin: 10px 15px;
+}
+#region-postscript-first .block-block:first-child {
+	margin-left: 0;
+}
+#region-postscript-first .block-block:last-child {
+	border: none;
+	margin-right: 0;
+}
+#region-postscript-first .block-block img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+#region-postscript-first .block-block a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fb8fa6;
+	display: block;
+}
+#region-postscript-first .block-block a:hover {
+	color: #444;
+}

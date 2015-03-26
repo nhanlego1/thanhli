@@ -366,15 +366,18 @@ form.webform-client-form label{
 /*
  * Sidebar-first
 */
-#block-views-category-list-block .views-row {
+#block-views-category-list-block .views-row, 
+#block-views-blog-category-block .views-row {
 	margin: 0;
 	padding: 0 0 10px 0;
 }
-#block-views-category-list-block .block-title {
+#block-views-category-list-block .block-title, 
+#block-views-blog-category-block .block-title{
 	margin: 0 0 20px 0;
 	border-bottom: 4px double #e5e5e5;
 }
-.view-category-list .views-row a {
+.view-category-list .views-row a, 
+.view-blog-category .views-row a {
 	font-family: 'Open Sans' sans-serif;
 	text-transform: uppercase;
     display: block;
@@ -382,7 +385,8 @@ form.webform-client-form label{
   	font-size: 12px;
   	margin: 0;
 }
-.view-category-list .views-row a:hover {
+.view-category-list .views-row a:hover,
+.view-blog-category .views-row a:hover {
 	color: #f44043;
 }
 /*
@@ -454,6 +458,15 @@ form.webform-client-form label{
  */
 .easy_social_box {
 	float: right;
+}
+/*
+ * Table-content-bottom
+ */
+tr.odd > td a,  tr.even > td a{
+	color: #fb8fa6;
+}
+tr.odd > td a:hover,  tr.even > td a:hover{
+	color: #4e4e4e;
 }
 /*****************************FOOTER****************************/
 #zone-footer-wrapper {
@@ -540,3 +553,44 @@ h3.error-subtile {
 #node-page-21 .content {
 	margin-left: 344px;
 }
+/**********************BLOG******************************/
+.view-blog .views-row {
+	display: inline-block;
+	width: 100%;
+	padding: 0 0 30px 0;
+	overflow: hidden;
+}
+.view-blog .views-row .left {
+	float: left;
+}
+.view-blog .views-field-field-blog-image img {
+	margin: 0 30px 20px 0;
+}
+.view-blog .views-field-title {
+	margin-bottom: 15px;
+}
+.view-blog a {
+	display: block;
+	color: #fb8fa6;
+}
+.view-blog a:hover {
+	color: #4e4e4e;
+}
+.view-blog .views-field-title a {
+	font-size: 20px;
+}
+.view-blog .views-field-field-blog-time {
+	font-size: 13px;
+	color: #999;
+    margin-bottom: 5px;
+}
+.view-blog .views-field-description > div {
+	font-size: 15px !important;
+}
+.view-blog .views-field-link {
+	margin: 5px 0 0 0;
+}
+.view-blog .views-field-link a {
+	text-decoration: underline;
+}
+

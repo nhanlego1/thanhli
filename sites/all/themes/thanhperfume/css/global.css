@@ -143,6 +143,7 @@ ul.nice-menu > li > a {
 	color: #fff;
 	background: url("../images/cat-marker.png") no-repeat scroll right center transparent;
 	padding-right: 40px;
+    font-weight: bold;
 }
 ul.nice-menu > li:last-child > a {
 	background: none;

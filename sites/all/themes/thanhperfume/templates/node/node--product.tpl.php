@@ -21,6 +21,7 @@
                 <div class="info-wrapper-grey">
                     <?php print render($content['body']) ?>
                 </div>
+                <?php print render($content['field_voting']); ?>
                 <?php print  render($content['easy_social_1']); ?>
 
             </div>

@@ -582,7 +582,7 @@ tr.odd > td a:hover,  tr.even > td a:hover{
 	line-height: 25px;
 }
 #block-block-9 {
-	width: 15%;
+	width: 16%;
 }
 #block-block-10 {
 	margin-top: 20px;
@@ -723,4 +723,8 @@ h3.error-subtile {
 }
 .page-node tr.even td {
     background: #fff;
+}
+
+.fivestar-widget .description {
+    display: none;
 }

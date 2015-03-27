@@ -38,6 +38,9 @@ h1, h2, h3 {
 .region-branding-inner {
 	position: relative;
 }
+#region-branding {
+	padding-bottom: 25px;
+}
 /*
  * Font
  */
@@ -244,6 +247,35 @@ ul.nice-menu > li:hover ul a:hover {
 	right: 0;
 	bottom: 25px;
 }
+#block-menu-block-2 {
+	position: absolute;
+    z-index: 10;
+    left: 620px;
+    bottom: 30px;
+}
+#block-menu-block-2 ul.menu {
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#block-menu-block-2 ul.menu li {
+	float: left;
+	margin: 0 10px;
+}
+#block-menu-block-2 ul.menu li a {
+	color: #8b8888;
+}
+#block-menu-block-2 ul.menu li a.active {
+	background: url("../images/show_cart.png") no-repeat scroll right center transparent;
+	width: 10px;
+	height: 10px; 
+	color: #f44043;
+	padding: 10px;
+}
+#block-menu-block-2 .block-title {
+	display: none;
+}
 #edit-title-wrapper label {
 	display: none;
 }
@@ -390,7 +422,8 @@ form.webform-client-form label{
   	margin: 0;
 }
 .view-category-list .views-row a:hover,
-.view-blog-category .views-row a:hover {
+.view-blog-category .views-row a:hover, 
+#block-menu-block-2 ul.menu li a:hover {
 	color: #f44043;
 }
 /*

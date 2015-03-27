@@ -465,6 +465,8 @@ form.webform-client-form label{
   	width: 100%;
   	height: auto;
   	display: block;
+    float:left;
+    margin-left: 9px;
 }
 .cloud-zoom-gallery-thumbs a img {
 	background: #fff;

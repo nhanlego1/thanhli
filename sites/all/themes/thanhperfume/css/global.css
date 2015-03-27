@@ -676,3 +676,16 @@ h3.error-subtile {
 #region-postscript-first .block-block a:hover {
 	color: #444;
 }
+
+
+.page-node tr.even, .page-node tr.odd {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 0.1em 0.6em;
+}
+.page-node tr:hover, .page-node tr td {
+    background-color: #fff!important;
+}
+.page-node tr.even td {
+    background: #fff;
+}

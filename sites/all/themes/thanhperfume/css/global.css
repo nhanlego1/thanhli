@@ -11,16 +11,19 @@ body {
 	height: 100%!important;
 }
 #page{
-    width: 1170px;
+    width: 1184px;
     position: relative;
     background: #fff;
     margin: 0 auto;
-    padding: 0 36px 10px 33px;
+    padding: 0 30px 10px 15px;
     text-align: left;
     z-index: 1111;
     border: 1px solid #e4c2b8;
     box-shadow: 0 3px 5px #e3c2b1;
     margin-bottom: 30px;
+}
+.container-12 .grid-3 {
+    width: 260px!important;
 }
 h1, h2, h3 {
     color: #fb838d;
@@ -176,7 +179,7 @@ ul.nice-menu > li ul {
 	position: absolute;
 	top: 100%;
 	left: 0;
-	width: 200px;
+	width: 300px;
 	visibility: visible;
 }
 ul.nice-menu > li:hover ul{
@@ -364,7 +367,6 @@ form.webform-client-form label{
 /**********************************PRODUCTS PAGES*********************************/
 [class*="view-products"] .views-row {
 	float: left;
-	width: 260px;
 	text-align: left;
 	margin: 0 30px 30px 0;
 	border: 1px solid #e5e5e5;
@@ -373,7 +375,7 @@ form.webform-client-form label{
 	margin: 0;
 }
 [class*="view-products"] .views-field {
-	padding: 0 20px 20px 20px;
+	padding: 0 10px 10px 10px;
 }
 [class*="view-products"] .views-field:first-child {
 	padding: 20px;
@@ -727,4 +729,89 @@ h3.error-subtile {
 
 .fivestar-widget .description {
     display: none;
+}
+
+h2.block-title{
+    margin: 0 0 20px 0;
+    border-bottom: 4px double #e5e5e5;
+}
+
+.view-category-list .views-row a, .view-blog-category .views-row a, #block-merc-global-merc-global-category-list ul li a {
+    font-family: 'Open Sans' sans-serif;
+    text-transform: uppercase;
+    display: block;
+    color: #a8a8a8;
+    font-size: 12px;
+    margin: 0;
+}
+
+ #block-merc-global-merc-global-category-list ul li a:hover {
+     color: #f44043;
+}
+#block-merc-global-merc-global-category-list ul li{
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+#block-merc-global-merc-global-category-list ul{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.item-list ul.pager {
+    border: none;
+    background: none;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 10px;
+    text-align: center;
+    width: 32%;
+}
+
+ul.pager li {
+    border: 0;
+    background: none;
+    border-radius: 0;
+    color: #a8a8a8;
+}
+
+ul.pager li a {
+    background: none;
+    font-size: 14px;
+    color: #a8a8a8;
+    font-weight: normal;
+
+}
+
+ul.pager li.pager-current {
+    background: none;
+    color: #f44043;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.pager li.pager-next {
+    border: none
+}
+
+.pager li.pager-first a, .pager li.pager-previous a, .pager li.pager-next a, .pager li.pager-last a {
+    width: 42px;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.pager li.pager-next {
+    position: relative;
+    top: 0;
+    right: -3px;
+}
+.pager li.pager-last, .pager li.pager-next.last {
+     position: relative;
+    top: 0;
+    /* right: 0; */
+    border-right: 0;
+}
+ul.nice-menu ul li{
+    width: 90%;
 }

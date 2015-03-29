@@ -6,6 +6,12 @@
  * Time: 7:53 AM
  * To change this template use File | Settings | File Templates.
  */
+/*
+ * Init function
+ */
+function merc_global_init(){
+    drupal_add_js(drupal_get_path('module','merc_global').'/js/merc_global.js');
+}
 
 function merc_global_menu()
 {

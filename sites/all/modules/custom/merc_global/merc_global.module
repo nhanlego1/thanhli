@@ -30,7 +30,28 @@ function merc_global_permission() {
     );
 }
 
+/*
+ * Implement Hook_outbound_alter
+ */
+function merc_global_url_outbound_alter(&$path, &$options, $original_path) {
+    //change alias for news
+    if (preg_match('|^blogs/([0-9]*)|', $path, $matches)) {
+        $alias = drupal_lookup_path('alias','taxonomy/term/'.$matches[1]);
+        $path = 'blogs/'.$alias;
+    }
 
+}
+
+function merc_global_url_inbound_alter(&$path, $original_path, $path_language) {
+    //back original for news
+
+    if (preg_match('|^blogs/(.+)|', $path, $matches)) {
+        $url = drupal_lookup_path('source',$matches[1]);
+        $t = explode('/',$url);
+        $tid = $t[2];
+        $path = 'blogs/'. $tid;
+    }
+}
 
 /*
  * Implement hook_theme
@@ -52,4 +73,52 @@ function merc_global_admin_dashboard(){
     return array('#theme' => 'merc_global_panel');
 }
 
+/*
+ * Menu block
+ */
 
+function merc_global_block_info() {
+
+    $blocks['merc_global_category_list'] = array(
+        'info' => t('Thanh category list'),
+    );
+
+    return $blocks;
+}
+
+
+/*
+ * Hook Block View
+ */
+function merc_global_block_view($delta = '') {
+    $block = array();
+
+    switch($delta) {
+        case 'merc_global_category_list':
+            $block['subject'] = '';
+            $block['content'] = merc_global_category_list();
+            break;
+
+    }
+    return $block;
+}
+
+function merc_global_category_list(){
+    $vals = taxonomy_get_tree(2);
+    $output = '';
+    foreach($vals as $val){
+        if($val->parents[0]==0){
+            $output .= '<a href="'.url('taxonomy/term/'.$val->tid).'"><h2 class="block-title">'.$val->name.'</h2></a>';
+            $children = taxonomy_get_children($val->tid);
+            if($children){
+                $output .='<ul>';
+                foreach($children as $child){
+                   $output .= '<li>'.l($child->name,'taxonomy/term/'.$child->tid).'</li>';
+                }
+                $output .='</ul>';
+            }
+        }
+    }
+
+    return $output;
+}

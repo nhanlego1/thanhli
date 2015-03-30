@@ -43,7 +43,7 @@
                     $items[] = $val['value'];
                 }
                 $collection = entity_load('field_collection_item', array($items));
-                $header = array('Sản phẩm','','Giá Thanhperfume', 'Giá thị trường','Đặt mua');
+                $header = array('Sản phẩm','','<span class="sell-price">Giá Thành Perfume</span>', 'Giá thị trường','Đặt mua');
                 $row = array();
                 foreach($collection as $collect){
                     $col = array();
@@ -59,7 +59,7 @@
 
                     }
                     if($collect->field_sell_other){
-                        $col[] = number_format($collect->field_sell_other[LANGUAGE_NONE][0]['value'], 0, ',', ' '). ' VND';
+                        $col[] = '<span class="sell-price">'.number_format($collect->field_sell_other[LANGUAGE_NONE][0]['value'], 0, ',', ' '). ' VND</span>';
                     }
                     if($collect->field_sell_over){
                         $col[] = number_format($collect->field_sell_over[LANGUAGE_NONE][0]['value'], 0, ',', ' '). ' VND';

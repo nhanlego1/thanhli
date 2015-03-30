@@ -187,7 +187,7 @@
                 top:0,
                 left:0,
                 position:'absolute',
-                zIndex:9999
+                zIndex:2
             });
             //////////////////////////////////////////////////////////////////////			
             /* Do as little as possible in mousemove event to prevent slowdown. */

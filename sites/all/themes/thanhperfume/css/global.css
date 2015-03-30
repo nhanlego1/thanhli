@@ -186,6 +186,7 @@ ul.nice-menu > li:hover ul{
 	display: block;
 	background: #fb8fa6;
 	padding: 20px 10px;
+    z-index:99999;
 }
 ul.nice-menu > li:hover ul a {
 	color: #fff;
@@ -840,4 +841,8 @@ ul.nice-menu ul li{
 }
 #views-exposed-form-blog-page-1 .views-submit-button,#edit-field-blog-category-tid-all{
     display: none;
+}
+
+span.sell-price{
+    color:#fb8fa6;
 }

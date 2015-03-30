@@ -39,25 +39,26 @@ function merc_global_permission() {
 /*
  * Implement Hook_outbound_alter
  */
-function merc_global_url_outbound_alter(&$path, &$options, $original_path) {
-    //change alias for news
-    if (preg_match('|^blogs/([0-9]*)|', $path, $matches)) {
-        $alias = drupal_lookup_path('alias','taxonomy/term/'.$matches[1]);
-        $path = 'blogs/'.$alias;
-    }
-
-}
-
-function merc_global_url_inbound_alter(&$path, $original_path, $path_language) {
-    //back original for news
-
-    if (preg_match('|^blogs/(.+)|', $path, $matches)) {
-        $url = drupal_lookup_path('source',$matches[1]);
-        $t = explode('/',$url);
-        $tid = $t[2];
-        $path = 'blogs/'. $tid;
-    }
-}
+//function merc_global_url_outbound_alter(&$path, &$options, $original_path) {
+//    //change alias for news
+//    if (isset($options['query']['field_blog_category_tid']) && $options['query']['field_blog_category_tid'] > 0) {
+//        $alias = drupal_lookup_path('alias','taxonomy/term/'.$options['query']['field_blog_category_tid']);
+//        unset($options['query']['field_blog_category_tid']);
+//        $path = 'blog/'.$alias;
+//    }
+//
+//}
+//
+//function merc_global_url_inbound_alter(&$path, $original_path, $path_language) {
+//    //back original for news
+//
+//    if (preg_match('|^blog/(.+)|', $path, $matches)) {
+//        $url = drupal_lookup_path('source',$matches[1]);
+//        $t = explode('/',$url);
+//        $tid = $t[2];
+//        $_GET['field_blog_category_tid'] = $tid;
+//    }
+//}
 
 /*
  * Implement hook_theme

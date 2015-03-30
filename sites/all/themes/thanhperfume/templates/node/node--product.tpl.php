@@ -75,6 +75,7 @@
         </div>
 
     </div>
+    <div class="fb-comments" data-href="<?php print url('node/'.$node->nid,array('absolute'=>true)) ?>" data-numposts="5" data-colorscheme="light"></div>
 
 
 </article>

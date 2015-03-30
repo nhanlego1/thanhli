@@ -815,3 +815,29 @@ ul.pager li.pager-current {
 ul.nice-menu ul li{
     width: 90%;
 }
+#edit-field-blog-category-tid-wrapper label{
+    margin: 0 0 20px 0;
+    border-bottom: 4px double #e5e5e5;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fb838d;
+    font-weight: 400;
+    padding: 0px 0 10px 0px;
+    width: 260px;
+}
+#views-exposed-form-blog-page-1 .form-type-bef-link a{
+    font-family: 'Open Sans' sans-serif;
+    text-transform: uppercase;
+    display: block;
+    color: #a8a8a8;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 10px;
+}
+#views-exposed-form-blog-page-1 .form-type-bef-link a:hover{
+    color: #ff1493;
+}
+#views-exposed-form-blog-page-1 .views-submit-button,#edit-field-blog-category-tid-all{
+    display: none;
+}

@@ -184,11 +184,11 @@ ul.nice-menu > li ul {
 }
 ul.nice-menu > li:hover ul{
 	display: block;
-	background: #fff;
+	background: #fb8fa6;
 	padding: 20px 10px;
 }
 ul.nice-menu > li:hover ul a {
-	color: #737373;
+	color: #fff;
 }
 ul.nice-menu > li:hover ul a:hover {
 	color: #000;
